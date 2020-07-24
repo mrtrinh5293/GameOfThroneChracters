@@ -16,18 +16,17 @@ class CharacterCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var characterLabelName: UILabel!
     
     
-    var charDemoDisplay: Character?
+//    var charDemoDisplay: CharacterModel?
     
     
-    func displayCharacterDemo(_ character: Character) {
+    func displayCharacterDemo(_ character: CharacterViewModel) {
         characterImageView.image = nil
         characterImageView.alpha = 0
         characterLabelName.text = ""
         characterLabelName.alpha = 0
         
-        charDemoDisplay = character
         
-        characterLabelName.text = charDemoDisplay?.characterName
+        characterLabelName.text = character.characterName
         
         UIView.animate(withDuration: 0.6, delay: 0, options: .curveEaseOut, animations: {
             [weak self] in
@@ -35,12 +34,7 @@ class CharacterCollectionViewCell: UICollectionViewCell {
             
         })
         
-        guard charDemoDisplay!.characterImageFull != nil else {
-            print("Can not get the picture")
-            return
-        }
-        
-        let imageUrlString = charDemoDisplay!.characterImageFull!
+        let imageUrlString = character.characterImageFull
         
         if let imageData = CachManager.retrieveData(imageUrlString) {
             characterImageView.image = UIImage(data: imageData)
@@ -70,7 +64,7 @@ class CharacterCollectionViewCell: UICollectionViewCell {
                 CachManager.saveData(imageUrlString, data!)
                 
                 // Check if the url string that the data task went off to download matches the article this cell is set to display
-                if self.charDemoDisplay!.characterImageFull == imageUrlString {
+                if character.characterImageFull == imageUrlString {
                     DispatchQueue.main.async {
                         // Display data image
                         self.characterImageView.image = UIImage(data: data!)

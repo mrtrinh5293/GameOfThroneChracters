@@ -7,44 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9383AC1324C885C60049D939 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC1224C885C60049D939 /* SearchBarView.swift */; };
-		9383AC1A24C9D1200049D939 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC1724C9D1200049D939 /* CharacterService.swift */; };
-		9383AC1B24C9D1200049D939 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC1824C9D1200049D939 /* Character.swift */; };
-		9383AC1C24C9D1200049D939 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC1924C9D1200049D939 /* CharacterModel.swift */; };
-		9383AC2124C9D1500049D939 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC1E24C9D1500049D939 /* CharacterService.swift */; };
-		9383AC2224C9D1500049D939 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC1F24C9D1500049D939 /* Character.swift */; };
-		9383AC2324C9D1500049D939 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC2024C9D1500049D939 /* CharacterModel.swift */; };
+		9383AC4824CB224B0049D939 /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC4724CB224B0049D939 /* CoreDataStorage.swift */; };
+		9383AC4A24CB25CF0049D939 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9383AC4924CB25CF0049D939 /* Default-568h@2x.png */; };
+		9383AC5024CB29FF0049D939 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC4F24CB29FF0049D939 /* Character.swift */; };
+		9383AC5624CB2C090049D939 /* CodingUserInfoKey+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5524CB2C090049D939 /* CodingUserInfoKey+Util.swift */; };
+		9383AC5824CB2D340049D939 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5724CB2D340049D939 /* CharacterModel.swift */; };
+		9383AC5A24CB37920049D939 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5924CB37920049D939 /* CharacterViewModel.swift */; };
+		9383AC5C24CB39A80049D939 /* UIViewController+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5B24CB39A80049D939 /* UIViewController+Util.swift */; };
+		9383AC5E24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5D24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift */; };
 		93ABE56324C7270D00CCFF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE56224C7270D00CCFF7D /* AppDelegate.swift */; };
 		93ABE56524C7270D00CCFF7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE56424C7270D00CCFF7D /* SceneDelegate.swift */; };
-		93ABE56724C7270D00CCFF7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE56624C7270D00CCFF7D /* ViewController.swift */; };
+		93ABE56724C7270D00CCFF7D /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE56624C7270D00CCFF7D /* CharacterViewController.swift */; };
 		93ABE56A24C7270D00CCFF7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ABE56824C7270D00CCFF7D /* Main.storyboard */; };
 		93ABE56D24C7270D00CCFF7D /* GameOfThroneCharacters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE56B24C7270D00CCFF7D /* GameOfThroneCharacters.xcdatamodeld */; };
 		93ABE56F24C7271000CCFF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93ABE56E24C7271000CCFF7D /* Assets.xcassets */; };
 		93ABE57224C7271000CCFF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ABE57024C7271000CCFF7D /* LaunchScreen.storyboard */; };
-		93ABE57E24C7275B00CCFF7D /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE57D24C7275B00CCFF7D /* CharacterModel.swift */; };
 		93ABE58424C72BE500CCFF7D /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE58324C72BE500CCFF7D /* CharacterCollectionViewCell.swift */; };
 		93ABE58624C7481000CCFF7D /* CatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE58524C7481000CCFF7D /* CatchManager.swift */; };
 		93ABE58A24C75A3900CCFF7D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE58924C75A3900CCFF7D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9383AC1224C885C60049D939 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
-		9383AC1724C9D1200049D939 /* CharacterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
-		9383AC1824C9D1200049D939 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		9383AC1924C9D1200049D939 /* CharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
-		9383AC1E24C9D1500049D939 /* CharacterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
-		9383AC1F24C9D1500049D939 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		9383AC2024C9D1500049D939 /* CharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		9383AC4724CB224B0049D939 /* CoreDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStorage.swift; sourceTree = "<group>"; };
+		9383AC4924CB25CF0049D939 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9383AC4F24CB29FF0049D939 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		9383AC5524CB2C090049D939 /* CodingUserInfoKey+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodingUserInfoKey+Util.swift"; sourceTree = "<group>"; };
+		9383AC5724CB2D340049D939 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		9383AC5924CB37920049D939 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		9383AC5B24CB39A80049D939 /* UIViewController+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Util.swift"; sourceTree = "<group>"; };
+		9383AC5D24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewControllerTableDataSource.swift; sourceTree = "<group>"; };
 		93ABE55F24C7270D00CCFF7D /* GameOfThroneCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThroneCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93ABE56224C7270D00CCFF7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93ABE56424C7270D00CCFF7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93ABE56624C7270D00CCFF7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93ABE56624C7270D00CCFF7D /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		93ABE56924C7270D00CCFF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93ABE56C24C7270D00CCFF7D /* GameOfThroneCharacters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameOfThroneCharacters.xcdatamodel; sourceTree = "<group>"; };
 		93ABE56E24C7271000CCFF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93ABE57124C7271000CCFF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93ABE57324C7271000CCFF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93ABE57D24C7275B00CCFF7D /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		93ABE58324C72BE500CCFF7D /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		93ABE58524C7481000CCFF7D /* CatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchManager.swift; sourceTree = "<group>"; };
 		93ABE58924C75A3900CCFF7D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
@@ -61,41 +61,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9383AC0F24C87EDD0049D939 /* SearchService */ = {
+		9383AC4324CB21510049D939 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				9383AC1224C885C60049D939 /* SearchBarView.swift */,
+				9383AC4B24CB28EF0049D939 /* Extensions */,
+				9383AC4424CB21E70049D939 /* Persistence */,
 			);
-			path = SearchService;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		9383AC1624C9D1200049D939 /* Service */ = {
+		9383AC4424CB21E70049D939 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
-				9383AC1724C9D1200049D939 /* CharacterService.swift */,
-				9383AC1824C9D1200049D939 /* Character.swift */,
-				9383AC1924C9D1200049D939 /* CharacterModel.swift */,
+				9383AC4724CB224B0049D939 /* CoreDataStorage.swift */,
 			);
-			name = Service;
+			path = Persistence;
 			sourceTree = "<group>";
 		};
-		9383AC1D24C9D1500049D939 /* Service */ = {
+		9383AC4B24CB28EF0049D939 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9383AC1E24C9D1500049D939 /* CharacterService.swift */,
-				9383AC1F24C9D1500049D939 /* Character.swift */,
-				9383AC2024C9D1500049D939 /* CharacterModel.swift */,
+				9383AC5524CB2C090049D939 /* CodingUserInfoKey+Util.swift */,
+				9383AC5B24CB39A80049D939 /* UIViewController+Util.swift */,
 			);
-			path = Service;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9383AC4C24CB29BF0049D939 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				9383AC4D24CB29D60049D939 /* DataSource */,
+				9383AC4E24CB29E80049D939 /* Models */,
+				9383AC5124CB2AB90049D939 /* ViewControllers */,
+				9383AC5224CB2AD30049D939 /* ViewModels */,
+				9383AC5324CB2B680049D939 /* Views */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		9383AC4D24CB29D60049D939 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				9383AC5D24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		9383AC4E24CB29E80049D939 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9383AC4F24CB29FF0049D939 /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9383AC5124CB2AB90049D939 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93ABE56624C7270D00CCFF7D /* CharacterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9383AC5224CB2AD30049D939 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9383AC5724CB2D340049D939 /* CharacterModel.swift */,
+				9383AC5924CB37920049D939 /* CharacterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9383AC5324CB2B680049D939 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93ABE58324C72BE500CCFF7D /* CharacterCollectionViewCell.swift */,
+				93ABE58924C75A3900CCFF7D /* DetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9383AC5424CB2B830049D939 /* CatchManager */ = {
+			isa = PBXGroup;
+			children = (
+				93ABE58524C7481000CCFF7D /* CatchManager.swift */,
+			);
+			path = CatchManager;
 			sourceTree = "<group>";
 		};
 		93ABE55624C7270D00CCFF7D = {
 			isa = PBXGroup;
 			children = (
-				9383AC1D24C9D1500049D939 /* Service */,
-				93ABE57A24C7272100CCFF7D /* View */,
-				93ABE57924C7271800CCFF7D /* Service */,
-				9383AC0F24C87EDD0049D939 /* SearchService */,
 				93ABE56124C7270D00CCFF7D /* GameOfThroneCharacters */,
 				93ABE56024C7270D00CCFF7D /* Products */,
 			);
@@ -112,35 +168,19 @@
 		93ABE56124C7270D00CCFF7D /* GameOfThroneCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				9383AC4C24CB29BF0049D939 /* MVVM */,
+				9383AC4324CB21510049D939 /* Utilities */,
+				9383AC5424CB2B830049D939 /* CatchManager */,
+				9383AC4924CB25CF0049D939 /* Default-568h@2x.png */,
 				93ABE56224C7270D00CCFF7D /* AppDelegate.swift */,
 				93ABE56424C7270D00CCFF7D /* SceneDelegate.swift */,
-				93ABE56624C7270D00CCFF7D /* ViewController.swift */,
-				93ABE58324C72BE500CCFF7D /* CharacterCollectionViewCell.swift */,
-				93ABE58924C75A3900CCFF7D /* DetailsViewController.swift */,
-				93ABE58524C7481000CCFF7D /* CatchManager.swift */,
+				93ABE56824C7270D00CCFF7D /* Main.storyboard */,
+				93ABE57024C7271000CCFF7D /* LaunchScreen.storyboard */,
 				93ABE56E24C7271000CCFF7D /* Assets.xcassets */,
 				93ABE57324C7271000CCFF7D /* Info.plist */,
 				93ABE56B24C7270D00CCFF7D /* GameOfThroneCharacters.xcdatamodeld */,
 			);
 			path = GameOfThroneCharacters;
-			sourceTree = "<group>";
-		};
-		93ABE57924C7271800CCFF7D /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				9383AC1624C9D1200049D939 /* Service */,
-				93ABE57D24C7275B00CCFF7D /* CharacterModel.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		93ABE57A24C7272100CCFF7D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				93ABE56824C7270D00CCFF7D /* Main.storyboard */,
-				93ABE57024C7271000CCFF7D /* LaunchScreen.storyboard */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93ABE57224C7271000CCFF7D /* LaunchScreen.storyboard in Resources */,
+				9383AC4A24CB25CF0049D939 /* Default-568h@2x.png in Resources */,
 				93ABE56F24C7271000CCFF7D /* Assets.xcassets in Resources */,
 				93ABE56A24C7270D00CCFF7D /* Main.storyboard in Resources */,
 			);
@@ -214,20 +255,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9383AC5024CB29FF0049D939 /* Character.swift in Sources */,
 				93ABE58424C72BE500CCFF7D /* CharacterCollectionViewCell.swift in Sources */,
-				93ABE56724C7270D00CCFF7D /* ViewController.swift in Sources */,
-				9383AC1B24C9D1200049D939 /* Character.swift in Sources */,
+				93ABE56724C7270D00CCFF7D /* CharacterViewController.swift in Sources */,
+				9383AC4824CB224B0049D939 /* CoreDataStorage.swift in Sources */,
+				9383AC5A24CB37920049D939 /* CharacterViewModel.swift in Sources */,
+				9383AC5824CB2D340049D939 /* CharacterModel.swift in Sources */,
+				9383AC5C24CB39A80049D939 /* UIViewController+Util.swift in Sources */,
 				93ABE58624C7481000CCFF7D /* CatchManager.swift in Sources */,
-				9383AC1324C885C60049D939 /* SearchBarView.swift in Sources */,
+				9383AC5624CB2C090049D939 /* CodingUserInfoKey+Util.swift in Sources */,
 				93ABE56324C7270D00CCFF7D /* AppDelegate.swift in Sources */,
-				9383AC2324C9D1500049D939 /* CharacterModel.swift in Sources */,
-				9383AC1A24C9D1200049D939 /* CharacterService.swift in Sources */,
+				9383AC5E24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift in Sources */,
 				93ABE56D24C7270D00CCFF7D /* GameOfThroneCharacters.xcdatamodeld in Sources */,
-				93ABE57E24C7275B00CCFF7D /* CharacterModel.swift in Sources */,
-				9383AC2224C9D1500049D939 /* Character.swift in Sources */,
-				9383AC1C24C9D1200049D939 /* CharacterModel.swift in Sources */,
 				93ABE56524C7270D00CCFF7D /* SceneDelegate.swift in Sources */,
-				9383AC2124C9D1500049D939 /* CharacterService.swift in Sources */,
 				93ABE58A24C75A3900CCFF7D /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
