@@ -24,13 +24,13 @@ class CharacterViewModel: NSObject {
     
     var houseName: String {
         get {
-            return self.character.houseName!
+            return self.character.houseName ?? "Character has no house name"
         }
     }
     
     var characterImageFull: String {
         get {
-            return self.character.characterImageFull!
+            return self.character.characterImageFull ??  ""
         }
     }
     
@@ -49,7 +49,7 @@ class CharacterViewModel: NSObject {
     
     var nickname: String {
         get {
-            return self.character.nickname!
+            return self.character.nickname ?? "Character has no nickname" 
         }
     }
     

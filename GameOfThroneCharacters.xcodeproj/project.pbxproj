@@ -64,6 +64,7 @@
 		9383AC4324CB21510049D939 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				9383AC6924CF21E00049D939 /* Helpers */,
 				9383AC4B24CB28EF0049D939 /* Extensions */,
 				9383AC4424CB21E70049D939 /* Persistence */,
 			);
@@ -147,6 +148,13 @@
 				93ABE58524C7481000CCFF7D /* CatchManager.swift */,
 			);
 			path = CatchManager;
+			sourceTree = "<group>";
+		};
+		9383AC6924CF21E00049D939 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		93ABE55624C7270D00CCFF7D = {

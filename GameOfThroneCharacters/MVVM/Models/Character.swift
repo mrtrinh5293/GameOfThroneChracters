@@ -36,11 +36,11 @@ class Character : NSManagedObject, Codable {
         
         let container = try decoder.container(keyedBy: CodingKeys.self)
         characterName = try container.decode(String.self, forKey: .characterName)
-        houseName = try container.decode(String.self, forKey: .houseName)
-        characterImageFull = try container.decode(String.self, forKey: .characterImageFull)
-        actorName = try container.decode(String.self, forKey: .actorName)
-        actorLink = try container.decode(String.self, forKey: .actorLink)
-        nickname = try container.decode(String.self, forKey: .nickname)
+        houseName = try container.decodeIfPresent(String.self, forKey: .houseName)
+        characterImageFull = try container.decodeIfPresent(String.self, forKey: .characterImageFull)
+        actorName = try container.decodeIfPresent(String.self, forKey: .actorName)
+        actorLink = try container.decodeIfPresent(String.self, forKey: .actorLink)
+        nickname = try container.decodeIfPresent(String.self, forKey: .nickname)
     }
     
     

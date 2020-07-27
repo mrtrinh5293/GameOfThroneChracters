@@ -8,13 +8,15 @@
 
 import UIKit
 import Foundation
+import CoreData
 
-class CharacterViewControllerTableDataSource: NSObject,UICollectionViewDataSource, UICollectionViewDelegate {
+class CharacterViewControllerTableDataSource: NSObject,UICollectionViewDataSource {
     
     let characterCollectionViewModel : CharacterModel
     
     init(_ characterCollectionViewModel: CharacterModel) {
         self.characterCollectionViewModel = characterCollectionViewModel
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -37,6 +39,20 @@ class CharacterViewControllerTableDataSource: NSObject,UICollectionViewDataSourc
         let characterViewModel = self.characterCollectionViewModel.character(atIndex: indexPath.row)
         cell.displayCharacterDemo(characterViewModel)
         
+        
         return cell
+        
     }
+}
+
+extension CharacterViewControllerTableDataSource : UISearchBarDelegate {
+    
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let searchView: UICollectionReusableView = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "SearchBar", for: indexPath)
+        
+        return searchView
+    }
+    
+    
 }

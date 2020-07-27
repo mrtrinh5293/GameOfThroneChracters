@@ -30,10 +30,10 @@ class DetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        charName.text = characterName as Any as? String
-        actName.text = actorName as Any as? String
-        nikname.text = nickname as Any as? String
-        housName.text = houseName as Any as? String
+        charName.text = characterName as? String
+        actName.text = actorName as? String
+        nikname.text = nickname as? String
+        housName.text = houseName as? String
         link.text = actorLink as? String
     }
 
