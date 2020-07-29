@@ -14,7 +14,6 @@
 		9383AC5824CB2D340049D939 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5724CB2D340049D939 /* CharacterModel.swift */; };
 		9383AC5A24CB37920049D939 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5924CB37920049D939 /* CharacterViewModel.swift */; };
 		9383AC5C24CB39A80049D939 /* UIViewController+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5B24CB39A80049D939 /* UIViewController+Util.swift */; };
-		9383AC5E24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383AC5D24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift */; };
 		93ABE56324C7270D00CCFF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE56224C7270D00CCFF7D /* AppDelegate.swift */; };
 		93ABE56524C7270D00CCFF7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE56424C7270D00CCFF7D /* SceneDelegate.swift */; };
 		93ABE56724C7270D00CCFF7D /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE56624C7270D00CCFF7D /* CharacterViewController.swift */; };
@@ -35,7 +34,6 @@
 		9383AC5724CB2D340049D939 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		9383AC5924CB37920049D939 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 		9383AC5B24CB39A80049D939 /* UIViewController+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Util.swift"; sourceTree = "<group>"; };
-		9383AC5D24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewControllerTableDataSource.swift; sourceTree = "<group>"; };
 		93ABE55F24C7270D00CCFF7D /* GameOfThroneCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThroneCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93ABE56224C7270D00CCFF7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93ABE56424C7270D00CCFF7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 		9383AC4324CB21510049D939 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				9383AC6924CF21E00049D939 /* Helpers */,
 				9383AC4B24CB28EF0049D939 /* Extensions */,
 				9383AC4424CB21E70049D939 /* Persistence */,
 			);
@@ -91,21 +88,12 @@
 		9383AC4C24CB29BF0049D939 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				9383AC4D24CB29D60049D939 /* DataSource */,
 				9383AC4E24CB29E80049D939 /* Models */,
 				9383AC5124CB2AB90049D939 /* ViewControllers */,
 				9383AC5224CB2AD30049D939 /* ViewModels */,
 				9383AC5324CB2B680049D939 /* Views */,
 			);
 			path = MVVM;
-			sourceTree = "<group>";
-		};
-		9383AC4D24CB29D60049D939 /* DataSource */ = {
-			isa = PBXGroup;
-			children = (
-				9383AC5D24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift */,
-			);
-			path = DataSource;
 			sourceTree = "<group>";
 		};
 		9383AC4E24CB29E80049D939 /* Models */ = {
@@ -148,13 +136,6 @@
 				93ABE58524C7481000CCFF7D /* CatchManager.swift */,
 			);
 			path = CatchManager;
-			sourceTree = "<group>";
-		};
-		9383AC6924CF21E00049D939 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Helpers;
 			sourceTree = "<group>";
 		};
 		93ABE55624C7270D00CCFF7D = {
@@ -273,7 +254,6 @@
 				93ABE58624C7481000CCFF7D /* CatchManager.swift in Sources */,
 				9383AC5624CB2C090049D939 /* CodingUserInfoKey+Util.swift in Sources */,
 				93ABE56324C7270D00CCFF7D /* AppDelegate.swift in Sources */,
-				9383AC5E24CB630C0049D939 /* CharacterViewControllerTableDataSource.swift in Sources */,
 				93ABE56D24C7270D00CCFF7D /* GameOfThroneCharacters.xcdatamodeld in Sources */,
 				93ABE56524C7270D00CCFF7D /* SceneDelegate.swift in Sources */,
 				93ABE58A24C75A3900CCFF7D /* DetailsViewController.swift in Sources */,
@@ -423,6 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DMUGLP379U;
 				INFOPLIST_FILE = GameOfThroneCharacters/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,6 +422,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DMUGLP379U;
 				INFOPLIST_FILE = GameOfThroneCharacters/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

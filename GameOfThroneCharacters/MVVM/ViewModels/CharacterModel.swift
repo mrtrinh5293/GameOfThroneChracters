@@ -17,12 +17,12 @@ protocol CharacterModelProtocol: NSObject {
 
 class CharacterModel: NSObject {
     
+    
     private var characters: [Character] {
         // didSet is the observer called on any property when a value is set to that property.
         didSet {
             self.delegate?.parseCharactersSuccess()
-        }
-        
+        }        
     }
     
     weak var delegate: CharacterModelProtocol?
@@ -34,8 +34,6 @@ class CharacterModel: NSObject {
     
     let stringUrl = "https://api.jsonbin.io/b/5f15de09c1edc466175ad86c/10"
     func getCharacter() {
-        
-        
         //         Create url object
         let url = URL(string: stringUrl)
         
@@ -82,16 +80,16 @@ class CharacterModel: NSObject {
         
         
     }
-    func numberOfCharacters() -> Int {
-        
-        return self.characters.count
+    func passCharacterData() -> [Character] {
+        return characters
     }
     
     func character(atIndex index: Int) -> CharacterViewModel {
         return CharacterViewModel(self.characters[index])
     }
-    
-//    func nameOfCharacters(_ character: [CharacterViewModel]) -> [CharacterViewModel] {
-//        return character
+
+//    func charParse() -> [CharacterViewModel] {
+//       return charcharchar
 //    }
+    
 }

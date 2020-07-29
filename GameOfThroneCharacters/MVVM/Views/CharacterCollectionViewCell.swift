@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class CharacterCollectionViewCell: UICollectionViewCell {
     
@@ -15,11 +16,8 @@ class CharacterCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var characterLabelName: UILabel!
     
-    
-//    var charDemoDisplay: CharacterModel?
-    
-    
-    func displayCharacterDemo(_ character: CharacterViewModel) {
+//    func displayCharacterDemo(_ character: Character) {
+        func displayCharacterDemo(_ character: CharacterViewModel) {
         characterImageView.image = nil
         characterImageView.alpha = 0
         characterLabelName.text = ""

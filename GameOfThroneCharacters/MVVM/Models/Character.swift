@@ -10,6 +10,11 @@ import UIKit
 import CoreData
 
 class Character : NSManagedObject, Codable {
+    
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Character> {
+        return NSFetchRequest<Character>(entityName: "Character")
+    }
+    
     @NSManaged public var characterName: String?
     @NSManaged public var houseName: String?
     @NSManaged public var characterImageFull: String?

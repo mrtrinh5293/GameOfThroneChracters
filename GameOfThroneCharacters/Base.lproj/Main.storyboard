@@ -19,6 +19,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bground" translatesAutoresizingMaskIntoConstraints="NO" id="7QQ-XT-AEN">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9k-Jk-Yx0">
+                                <rect key="frame" x="92" y="412" width="230" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="Fetch Data"/>
+                                <connections>
+                                    <action selector="fetchData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8i7-ea-9wl"/>
+                                </connections>
+                            </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tIZ-uR-fQb">
                                 <rect key="frame" x="20" y="92" width="374" height="804"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -110,16 +118,19 @@
                             <constraint firstItem="tIZ-uR-fQb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="I5m-0j-W2s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7QQ-XT-AEN" secondAttribute="trailing" id="Nei-g6-XHg"/>
                             <constraint firstAttribute="bottom" secondItem="7QQ-XT-AEN" secondAttribute="bottom" id="OT9-rb-NPj"/>
+                            <constraint firstItem="s9k-Jk-Yx0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RFM-Vd-6pj"/>
                             <constraint firstItem="tIZ-uR-fQb" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="Wj7-a1-gMj"/>
                             <constraint firstItem="7QQ-XT-AEN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZuX-xA-bZD"/>
                             <constraint firstItem="tIZ-uR-fQb" firstAttribute="centerX" secondItem="NVr-Gc-jni" secondAttribute="centerX" id="fho-Q8-66W"/>
                             <constraint firstItem="NVr-Gc-jni" firstAttribute="centerX" secondItem="7QQ-XT-AEN" secondAttribute="centerX" id="tMD-ig-OvF"/>
+                            <constraint firstItem="s9k-Jk-Yx0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wPo-S4-FgQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="PUw-gq-0e2"/>
                     <connections>
                         <outlet property="collectionView" destination="tIZ-uR-fQb" id="21Z-mx-peX"/>
+                        <outlet property="fetchButLabel" destination="s9k-Jk-Yx0" id="dT7-Gj-mVy"/>
                         <segue destination="e7l-hx-7aV" kind="presentation" identifier="gotoDetail" id="jdK-Qo-nC6"/>
                     </connections>
                 </viewController>
